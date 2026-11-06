@@ -1,0 +1,33 @@
+# Environment and Secrets
+.env
+.env.local
+*.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+rootline.db
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.npm
+*.log
+
+# Project-specific private data
+uploads/
+samples/
+videos/
+screenshots/
+.DS_Store
+Thumbs.db

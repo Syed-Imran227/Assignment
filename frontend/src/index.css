@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-paper: #F5F2EA;
+  --color-sheet: #FBF9F4;
+  --color-sheet-subtle: #F0EDE4;
+  --color-ink: #15181B;
+  --color-graphite: #5B6168;
+  --color-graphite-light: #8E959E;
+  --color-rule: #D8D2C3;
+  --color-rule-strong: #B9B2A0;
+  --color-rule-subtle: #E8E4DA;
+  --color-verdigris: #1F7A66;
+  --color-amber: #B7791F;
+  --color-vermilion: #D2431F;
+  --color-slate-blue: #3E5C86;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Custom scrollbars for a clean lab-notebook aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-sheet-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule-strong);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-graphite);
+}
