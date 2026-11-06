@@ -554,3 +554,4 @@ DO NOT include any fields the user did not mention.
         "change_summary": change_summary,
         "applied_patch": patch
     }
+

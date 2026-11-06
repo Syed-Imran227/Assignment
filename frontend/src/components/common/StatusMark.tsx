@@ -40,3 +40,4 @@ export const StatusMark: React.FC<StatusMarkProps> = ({ status, confidence }) =>
     </span>
   );
 };
+

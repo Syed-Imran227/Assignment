@@ -308,3 +308,4 @@ async def copilot_chat(
         yield sse_event("done", {})
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
+

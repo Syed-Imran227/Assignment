@@ -154,3 +154,4 @@ export const InvestigationsListPage: React.FC<Props> = ({ onOpenInvestigation })
     </div>
   );
 };
+

@@ -251,3 +251,4 @@ export const CopilotPanel: React.FC = () => {
     </div>
   );
 };
+

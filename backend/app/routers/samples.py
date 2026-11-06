@@ -59,3 +59,4 @@ async def get_sample_content(sample_id: str):
     elif sample_id == "sample_b":
         return {"content": "sample_b_metformin_deviation.pdf", "kind": "pdf", "download_url": "/api/samples/sample_b/download"}
     raise HTTPException(status_code=404, detail="Sample not found")
+

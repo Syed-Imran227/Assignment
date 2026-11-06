@@ -66,3 +66,4 @@
   > Finally, in Section 07, our validation checklist confirms all required fields and attestations are satisfied. Clicking 'Approve & Lock Investigation' locks revision 1.0 against tampering. In Section 08, the ALCOA+ append-only audit trail logs every AI suggestion, natural language edit, and human sign-off.
   >
   > Rootline keeps the investigator in full control while accelerating investigation velocity."
+

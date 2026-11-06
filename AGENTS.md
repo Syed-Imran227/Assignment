@@ -53,3 +53,4 @@ Every AI-written value has status: empty | pencil | edited | ink.
 - ink: a human confirmed it (solid black, solid rule, check mark). Confirmation takes one click or Enter on a focused field.
 - The transition pencil -> ink is animated.
 Every AI value also has: confidence (low/medium/high), source (quote + position in the document, with verified: true/false), and a one-line rationale.
+

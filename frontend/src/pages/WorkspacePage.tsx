@@ -91,3 +91,4 @@ export const WorkspacePage: React.FC<Props> = ({ investigationId, onBackToList }
     </div>
   );
 };
+

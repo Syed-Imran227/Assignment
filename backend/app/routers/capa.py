@@ -67,3 +67,4 @@ async def update_capa(
         "owner_role": capa.owner_role,
         "due_offset_days": capa.due_offset_days
     }
+

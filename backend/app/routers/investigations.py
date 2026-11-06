@@ -302,3 +302,4 @@ async def reopen_investigation(inv_id: str, db: AsyncSession = Depends(get_db)):
     db.add(audit)
     await db.commit()
     return {"status": "reopened", "version": inv.version}
+

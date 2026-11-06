@@ -87,3 +87,4 @@ export const WhysView: React.FC = () => {
     </div>
   );
 };
+

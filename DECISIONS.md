@@ -22,3 +22,4 @@
 - **Command Syntax**: Use `;` for command chaining in PowerShell. Never use `&&`.
 - **Backend Environment**: Always activate `.venv\Scripts\activate` before running python/uvicorn/pip commands.
 - **Project Boundary**: All dependencies, source code, data, and uploads remain strictly inside `c:\Users\syedi\OneDrive\Desktop\Projects\Assignment`.
+

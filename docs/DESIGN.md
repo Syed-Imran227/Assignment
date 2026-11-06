@@ -136,3 +136,4 @@ A quality control laboratory notebook and validated batch manufacturing record, 
 - Qualified person attestation signed.
 - Version bumped to `v1.0` (Immutable). Save button replaced with "Reopen New Revision".
 - Full append-only audit trail accessible.
+

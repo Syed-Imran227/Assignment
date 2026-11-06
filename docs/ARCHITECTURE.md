@@ -103,3 +103,4 @@ Every AI-generated value follows strict regulatory immutability rules:
 | `POST` | `/api/investigations/{id}/reopen` | Reopen new draft revision (vN+1) | No |
 | `GET` | `/api/investigations/{id}/audit` | Append-only ALCOA+ audit log | No |
 | `GET` | `/api/samples` | List available demo incident scenarios | No |
+

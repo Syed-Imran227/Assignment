@@ -14,3 +14,4 @@ BACKEND_PORT = int(os.getenv("BACKEND_PORT", "8000"))
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
 UPLOAD_DIR = ROOT_DIR / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+

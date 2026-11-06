@@ -89,3 +89,4 @@ npm run build --prefix frontend
 - **ICH Q10**: Pharmaceutical Quality System and structured 3-tier CAPA (Correction, Corrective Action, Preventive Action).
 - **21 CFR 211.192**: Thorough investigation of unexplained discrepancies and failure investigations.
 - **ALCOA+ Principles**: Attributable, Legible, Contemporaneous, Original, and Accurate data integrity.
+

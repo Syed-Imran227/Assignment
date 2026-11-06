@@ -13,3 +13,4 @@ with TestClient(app) as client:
     print("4. Sending GET /health...")
     resp = client.get("/health")
     print("5. Response:", resp.status_code, resp.json())
+

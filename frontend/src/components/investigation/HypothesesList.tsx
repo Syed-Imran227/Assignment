@@ -228,3 +228,4 @@ export const HypothesesList: React.FC = () => {
     </div>
   );
 };
+

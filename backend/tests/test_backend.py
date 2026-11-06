@@ -75,3 +75,4 @@ async def test_investigation_lifecycle():
         assert reopen_resp.status_code == 200
         assert reopen_resp.json()["status"] == "reopened"
         assert reopen_resp.json()["version"] == 2
+

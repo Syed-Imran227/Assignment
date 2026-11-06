@@ -81,3 +81,4 @@ class AuditLogItem(BaseModel):
     before_state: Optional[Dict[str, Any]] = None
     after_state: Optional[Dict[str, Any]] = None
     created_at: datetime.datetime
+

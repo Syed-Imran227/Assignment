@@ -178,3 +178,4 @@ class ChatMessage(Base):
     created_at: Mapped[datetime.datetime] = mapped_column(DateTime, default=datetime.datetime.utcnow)
 
     investigation = relationship("Investigation", back_populates="chat_messages")
+

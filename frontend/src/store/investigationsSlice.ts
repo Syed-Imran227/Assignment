@@ -69,3 +69,4 @@ export const investigationsSlice = createSlice({
 });
 
 export default investigationsSlice.reducer;
+

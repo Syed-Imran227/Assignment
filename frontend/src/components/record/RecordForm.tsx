@@ -259,3 +259,4 @@ export const RecordForm: React.FC = () => {
     </div>
   );
 };
+

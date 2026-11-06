@@ -34,3 +34,4 @@ async def get_audit_trail(
         }
         for log in logs
     ]
+

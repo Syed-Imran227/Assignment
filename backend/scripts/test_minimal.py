@@ -12,3 +12,4 @@ client = TestClient(dummy)
 print("Requesting /ping...")
 r = client.get("/ping")
 print("Result:", r.status_code, r.json())
+

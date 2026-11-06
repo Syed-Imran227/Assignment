@@ -109,3 +109,4 @@ def parse_email_content(raw_content: str) -> Tuple[str, Dict[str, str]]:
         full_text = normalize_text(raw_content)
 
     return full_text, headers
+
